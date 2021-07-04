@@ -7,11 +7,11 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Getter @Setter
-public class ModalView {
+public class ModelView {
     private String viewName;
     private Map<String, Object> model = new HashMap<>();
     
-    public ModalView(String viewName) {
+    public ModelView(String viewName) {
         this.viewName = viewName;
     }
 
